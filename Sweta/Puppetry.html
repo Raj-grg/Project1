@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Drama and Puppetry | InnocentSoul</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- W3.CSS and Fonts -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: "Raleway", sans-serif;
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* Navbar styles */
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+
+    .w3-top {
+      z-index: 10;
+    }
+
+    /* Full-width layout */
+    .content-wrapper {
+      width: 100%;
+      margin-top: 100px;
+      padding: 48px 5% 64px 5%;
+      background-color: #fff;
+    }
+    
+    .video-container {
+      padding-left: 15%;
+     margin-top: 5%;
+      padding-bottom: 40%;
+    }
+
+    .video-container iframe {
+      position: absolute;
+      width: 60%;
+      height: 60%;
+    }
+
+
+
+    header.page-title {
+      text-align: center;
+      color: #b45f06;
+      font-weight: 700;
+      font-size: 2.8rem;
+      margin-bottom: 40px;
+      letter-spacing: 1px;
+    }
+
+    h3.section-title {
+      color: #b45f06;
+      border-bottom: 3px solid #deb887;
+      padding-bottom: 10px;
+      margin-bottom: 24px;
+      font-weight: 600;
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      margin-left: 1.5rem;
+      margin-bottom: 40px;
+      font-size: 1.05rem;
+      color: #555;
+    }
+
+    ul li strong {
+      color: #a85f00;
+    }
+
+    .img-placeholder {
+      width: 100%;
+      height: 400px;
+      margin: 40px auto 50px auto;
+      border-radius: 12px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      box-shadow: 0 8px 24px rgba(180, 95, 6, 0.2);
+      filter: grayscale(15%);
+      transition: filter 0.3s ease;
+      cursor: pointer;
+    }
+
+    .img-placeholder:hover {
+      filter: grayscale(0);
+    }
+
+    @media (max-width: 700px) {
+      header.page-title {
+        font-size: 2.2rem;
+      }
+
+      .content-wrapper {
+        padding: 32px 16px;
+      }
+
+      h3.section-title {
+        font-size: 1.5rem;
+      }
+
+      .img-placeholder {
+        height: 220px;
+      }
+    }
+  </style>
+</head>
+<body class="w3-light-grey">
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-card" id="myNavbar">
+      <a href="index.html" class="w3-bar-item w3-button w3-wide">InnocentSoul</a>
+      <div class="w3-right w3-hide-small">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="Puppetry.html" class="w3-bar-item w3-button">Drama and Puppetry</a>
+        <a href="Art.html" class="w3-bar-item w3-button">Art</a>
+        <a href="Reference.html" class="w3-bar-item w3-button">Reference</a>
+      </div>
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- Sidebar -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+    <a href="Puppetry.html" onclick="w3_close()" class="w3-bar-item w3-button">Drama and Puppetry</a>
+    <a href="Art.html" onclick="w3_close()" class="w3-bar-item w3-button">Art</a>
+    <a href="Reference.html" onclick="w3_close()" class="w3-bar-item w3-button">Reference</a>
+  </nav>
+
+  <!-- Content -->
+  <div class="content-wrapper">
+
+    <header class="page-title" id="home">
+      Drama and Puppetry
+    </header>
+
+    <section>
+      <h3 class="section-title">Introduction</h3>
+      <p>
+        Drama and puppetry are fun and creative ways for young children to express themselves, explore feelings, and tell stories. Through role-play, acting, and using puppets, children build confidence, develop language skills, and learn to work with others. These activities spark imagination and support learning in a playful, engaging way.
+      </p>
+      <div class="img-placeholder" style="background-image: url('10.png');" title="Drama and puppetry"></div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Creativity Theories and Perspectives</h3>
+      <p>
+        Drama and puppetry are powerful tools in early childhood learning, supported by well-known educational theories. Vygotsky believed that children learn best through social play, like pretending and storytelling. These activities help them understand the world around them and build thinking skills (Anders, 2021).
+      </p>
+      <p>
+        Piaget also said that children learn by doing. Through dramatic play, they can explore ideas, try out different roles, and make sense of real-life situations (Howard & Mayesky, 2022).
+      </p>
+      <p>
+        Tombak (2014) adds that drama helps boost creativity. It gives children the chance to share their thoughts, explore different viewpoints, and express themselves freely. Overall, drama and puppetry help children grow emotionally, socially, and intellectually by making learning active and fun.
+      </p>
+      <div class="img-placeholder" style="background-image: url('11.jpg');" title="Creativity theories"></div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Using Materials, Tools, and Technology</h3>
+      <p>
+        To make drama and puppetry more engaging, educators can use a variety of tools and materials. Items like costumes, masks, puppets, and story props help children step into different roles and express their ideas in creative ways. These hands-on resources encourage imagination and make pretend play more meaningful.
+      </p>
+      <p>
+        Alongside traditional props, digital tools can also enhance learning. Technology such as smartboards, storytelling apps, and video cameras allows children to watch themselves perform and think about how they can improve (Mayesky, 2015). These resources create exciting and interactive learning spaces where children are free to explore, reflect, and bring their creative ideas to life.
+      </p>
+      <div class="img-placeholder" style="background-image: url('12.jpg');" title="Materials and technology"></div>
+    </section>
+
+    <section>
+      <h3 class="section-title">Age-Specific Learning Activities</h3>
+      <ul>
+        <li><strong>0–2 years:</strong> Hand puppet play to encourage sounds and interaction.</li>
+        <li><strong>2–3 years:</strong> Using puppets to act out daily routines.</li>
+        <li><strong>3–5 years:</strong> Telling stories with puppets.</li>
+        <li><strong>6–8 years:</strong> Making and performing puppet shows.</li>
+      </ul>
+    </section>
+<!-- Video Section -->
+  <section class="section">
+    <h3 class="section-title">Watch: How Art Boosts Creativity</h3>
+    <div class="video-container">
+      <iframe src="d:\College\Sweta\Messenger_creation_B9210F1D-822A-46BE-835B-D1C3BC9FC74D.mp4" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>
+    <section>
+      <h3 class="section-title">Original Creative Learning Opportunities</h3>
+      <ul>
+        <li><strong>0–2 years:</strong> Exploring textures by touching different puppet materials.</li>
+        <li><strong>2–3 years:</strong> Pretending to be animals with simple puppet movements.</li>
+        <li><strong>3–5 years:</strong> Making up short puppet stories in small groups.</li>
+        <li><strong>6–8 years:</strong> Writing and acting out puppet plays with friends.</li>
+      </ul>
+    </section>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-black w3-padding-64">
+    <a href="#home" class="w3-button w3-light-grey w3-hover-green">
+      <i class="fa fa-arrow-up w3-margin-right"></i>To the top
+    </a>
+ <pre>Contact
+📍 123 Imagination Lane, Creativity City, Dreamland 45678
+📞 +123-456-7890
+✉️ hello@innocentsoul.org
+Follow Us
+🌐 Facebook | Instagram | Twitter | YouTube
+Legal
+© 2025 InnocentSoul. All rights reserved.
+Privacy Policy | Terms & Conditions | Cookie Settings</pre>
+  </footer>
+
+  <script>
+    var mySidebar = document.getElementById("mySidebar");
+    function w3_open() {
+      mySidebar.style.display = mySidebar.style.display === 'block' ? 'none' : 'block';
+    }
+    function w3_close() {
+      mySidebar.style.display = 'none';
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>W3.CSS Template</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body, h1, h2, h3, h4, h5, h6 {
+      font-family: "Raleway", sans-serif;
+    }
+
+    body, html {
+      height: 100%;
+      line-height: 1.8;
+    }
+
+    .bgimg-1 {
+      background-position: center;
+      background-size: cover;
+      background-image: url("lazy-parents-create-happier-children.jpg");
+      min-height: 100%;
+    }
+
+    .w3-bar .w3-button {
+      padding: 16px;
+    }
+
+    .sweta {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="index.html" class="w3-bar-item w3-button w3-wide">InnocentSoul</a>
+    <div class="w3-right w3-hide-small">
+      <a href="index.html" class="w3-bar-item w3-button">Home</a>
+      <a href="Puppetry.html" class="w3-bar-item w3-button">Drama and Puppetry</a>
+      <a href="Art.html" class="w3-bar-item w3-button">Art</a>
+      <a href="Reference.html" class="w3-bar-item w3-button">Reference</a>
+    </div>
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">Home</a>
+  <a href="Puppetry.html" onclick="w3_close()" class="w3-bar-item w3-button">Drama and Puppetry</a>
+  <a href="Art.html" onclick="w3_close()" class="w3-bar-item w3-button">Art</a>
+  <a href="Reference.html" onclick="w3_close()" class="w3-bar-item w3-button">Reference</a>
+</nav>
+
+<!-- Header -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Nurturing Young Imaginations</span><br>
+    <span class="w3-large">Let the child be the scriptwriter, the director and the actor in his own play.</span>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT US</h3>
+  <p>Welcome to our website all about encouraging creativity in early childhood education! Here, you’ll find ideas and strategies to help early childhood educators bring creativity into everyday learning through areas like art, music, drama, science, math, and more.
+  <br><br>
+  Creativity is very important for young children. It helps them think in new ways, solve problems, and express their thoughts and feelings. When creativity is included in all parts of the curriculum, it supports children’s thinking, learning, emotions, and relationships with others.
+  <br><br>
+  A creative curriculum gives children the chance to explore, try new things, and express themselves freely. Fun activities like painting, acting, singing, storytelling, or doing hands-on science experiments help spark imagination and encourage children to come up with their own ideas.
+  <br><br>
+  As Howard and Mayesky (2022) explain, a creative learning space lets children interact with materials in their own way, helping them grow in confidence and independence. Creative learning also helps children connect ideas and remember what they’ve learned more easily.</p>
+</div>
+
+<!-- Why Creativity Matters Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px">
+  <div class="w3-row-padding">
+    <div class="w3-col m6">
+      <h3>Why Creativity Matters</h3>
+      <p>A creative curriculum can work well for children of all ages and learning styles. For younger children, fun and hands-on activities like finger painting or playing with puppets help develop their senses and spark curiosity. As children get older, they benefit from more group-based and structured creative experiences like group art or drama, which help build teamwork and thinking skills.
+      <br><br>
+      It’s also important for teachers to regularly think about and improve the way they teach. When educators reflect on their methods, they can create spaces that allow children to take creative risks, try new things, and feel safe exploring their ideas (Howard & Mayesky, 2022). This helps teachers stay flexible and thoughtful in how they support children's creativity.
+      <br><br>
+      In the end, adding creativity into the daily learning program makes children’s education more exciting and meaningful. It helps them become more confident, imaginative, and ready to face new challenges. When teachers use creative teaching practices, they support the overall growth of children and set them up for lifelong success.</p>
+    </div>
+    <div class="w3-col m6">
+      <img class="w3-image w3-round-large" src="Happy.jpg" alt="Happy Children" width="700" height="394">
+    </div>
+  </div>
+</div>
+
+<!-- Role of Teachers Section -->
+<div class="w3-container" style="padding:128px 16px" id="work">
+  <h3 class="w3-center">The Role Of Teachers</h3>
+  <img class="sweta w3-image w3-round-large" src="Teacher.webp" alt="Teacher Inspiring Creativity" width="700" height="394">
+  <p>Teachers play an important part in helping young children develop creativity. They set up safe and fun spaces with open-ended materials like art tools, musical instruments, and costumes, so children can explore and express their ideas in their own way. These creative experiences are planned to suit each child’s age, interests, and learning style.
+  <br><br>
+  Teachers also support creativity by building strong relationships and encouraging children to take risks, solve problems, and think for themselves. They follow theories like Vygotsky’s, which says children learn through social interactions, and Gardner’s, which shows that children are smart in different ways.
+  <br><br>
+  According to ACECQA (2023), educators should use holistic and responsive teaching practices that connect learning across different areas and value every child’s background and strengths. When teachers reflect on their teaching and stay flexible, they create environments that support all children to grow as confident, creative, and capable learners (ACECQA, 2023).</p>
+
+  <!-- Gallery -->
+  <div class="w3-row-padding w3-section">
+    <div class="w3-col l3 m6"><img src="1.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tablet"></div>
+    <div class="w3-col l3 m6"><img src="2.jpeg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A camera"></div>
+    <div class="w3-col l3 m6"><img src="3.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A typewriter"></div>
+    <div class="w3-col l3 m6"><img src="4.webp" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="A tableturner"></div>
+  </div>
+</div>
+
+<!-- Modal for Gallery -->
+<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
+  <span class="w3-button w3-xxlarge w3-black w3-padding-large w3-display-topright" title="Close Modal Image">×</span>
+  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+    <img id="img01" class="w3-image">
+    <p id="caption" class="w3-opacity w3-large"></p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="index.html"w3-button w3-light-grey">
+    <i class="fa fa-arrow-up w3-margin-right"></i>To the top
+  </a>
+  <pre>Contact
+📍 123 Imagination Lane, Creativity City, Dreamland 45678
+📞 +123-456-7890
+✉️ hello@innocentsoul.org
+Follow Us
+🌐 Facebook | Instagram | Twitter | YouTube
+Legal
+© 2025 InnocentSoul. All rights reserved.
+Privacy Policy | Terms & Conditions | Cookie Settings</pre>
+</footer>
+
+<!-- Scripts -->
+<script>
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  document.getElementById("caption").innerHTML = element.alt;
+}
+
+function w3_open() {
+  const mySidebar = document.getElementById("mySidebar");
+  mySidebar.style.display = (mySidebar.style.display === 'block') ? 'none' : 'block';
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+
+</body>
+</html>
